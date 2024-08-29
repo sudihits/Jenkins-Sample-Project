@@ -37,7 +37,7 @@ Before(() => {
    state.logger = logger
    state.jenkinsClient = new JenkinsClient(getAppSettings().jenkins)
 })
-
+}
 Given('the branch on GitHub is {string}', async (branchRef: string) => {
    const state = <ScenarioState>this
 
