@@ -8,7 +8,7 @@ pipeline {
         }
         stage 'Build', {
             steps {
-                echo 'Hello, World Sudi!'
+                echo 'Hello, World Sudi Hits!'
             }
         }
     }
